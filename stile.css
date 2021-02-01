@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #212121;
+  --no-primary-color: #757575;
+  --nav-color: #2196f3;
+  --white: #ffffff;
+  --background: #2f303a;
+  --white-tel-em: rgba(255, 255, 255, 0.6);
+  --border-color: #ececec;
+  --items-color: #eeeeee;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Стили Хедера*/
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--nav-color);
+}
+.list {
+  list-style: none;
+}
+.header-logo-span {
+  color: var(--primary-color);
+}
+.header-nav .item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.header-nav-contacts .item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--no-primary-color);
+}
+.header-nav .hover-item {
+  color: var(--nav-color);
+}
+.header-nav-contacts .hover-item {
+  color: var(--nav-color);
+}
+.header-nav .item:hover,
+.header-nav .item:focus {
+  color: var(--nav-color);
+}
+.header-nav-contacts .item:hover,
+.header-nav-contacts .item:focus {
+  color: var(--nav-color);
+}
+.header-nav .hover-item:hover,
+.header-nav .hover-item:focus {
+  color: var(--primary-color);
+}
+.header-nav-contacts .hover-item:hover,
+.header-nav-contacts .hover-item:focus {
+  color: var(--no-primary-color);
+}
+/* Секция картинок */
+.section-button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.section-button:hover {
+  color: var(--white);
+  background-color: var(--nav-color);
+}
+.list {
+  list-style: none;
+}
+/*Стили Футера */
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--nav-color);
+}
+.footer-logo-span {
+  color: var(--primary-color);
+}
+.footer-adress {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+.footer-list .item {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white) 60%;
+}
