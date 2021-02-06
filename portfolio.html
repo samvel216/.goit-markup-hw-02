@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./stile.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
@@ -12,74 +16,82 @@
   </head>
   <body>
     <header>
-      <a class="header-logo" href=""
-        >Web<span class="header-logo-span">Studio</span></a
-      >
-      <nav>
-        <ul class="header-nav list">
-          <li class="item">Студия</li>
-          <li class="item hover-item">Портфолио</li>
-          <li class="item">Контакты</li>
-        </ul>
-      </nav>
-      <nav>
+      <div class="container site-nav">
+        <a class="header-logo" href=""
+          >Web<span class="header-logo-span">Studio</span></a
+        >
+        <nav>
+          <ul class="header-nav list">
+            <li class="item">Студия</li>
+            <li class="item hover-item">Портфолио</li>
+            <li class="item">Контакты</li>
+          </ul>
+        </nav>
         <ul class="header-nav-contacts list">
           <li class="item hover-item">info@devstudio.com</li>
           <li class="item">+38 096 111 11 11</li>
         </ul>
-      </nav>
+      </div>
     </header>
     <main>
       <section>
         <ul>
-          <button class="section-button">Все</button>
-          <button class="section-button">Веб-сайт</button>
-          <button class="section-button">Приложение</button>
-          <button class="section-button">Дизайн</button>
-          <button class="section-button">Маркетинг</button>
+          <li><button type="button" class="section-button">Все</button></li>
+          <li>
+            <button type="button" class="section-button">Веб-сайт</button>
+          </li>
+          <li>
+            <button type="button" class="section-button">Веб-сайт</button>
+          </li>
+          <li>
+            <button type="button" class="section-button">Приложение</button>
+          </li>
+          <li><button type="button" class="section-button">Дизайн</button></li>
+          <li><button type="button" class="section-button">Макет</button></li>
         </ul>
         <ul>
           <li class="list">
-            <img src="./img/img(9).jpg" width="370px" alt="" />
+            <img src="./img/img(9).jpg" width="370" alt="картинка1" />
           </li>
           <li class="list">
-            <img src="./img/img(1).png" width="370px" alt="" />
+            <img src="./img/img(1).png" width="370" alt="картинка2" />
           </li>
           <li class="list">
-            <img src="./img/img(2).jpg" width="370px" alt="" />
+            <img src="./img/img(2).jpg" width="370" alt="картинка3" />
           </li>
           <li class="list">
-            <img src="./img/img(4).jpg" width="370px" alt="" />
+            <img src="./img/img(4).jpg" width="370" alt="картинка4" />
           </li>
           <li class="list">
-            <img src="./img/img(5).jpg" width="370px" alt="" />
+            <img src="./img/img(5).jpg" width="370" alt="картинка5" />
           </li>
           <li class="list">
-            <img src="./img/img(10).jpg" width="370px" alt="" />
+            <img src="./img/img(10).jpg" width="370" alt="картинка6" />
           </li>
           <li class="list">
-            <img src="./img/img(6).jpg" width="370px" alt="" />
+            <img src="./img/img(6).jpg" width="370" alt="картинка7" />
           </li>
           <li class="list">
-            <img src="./img/img(7).jpg" width="370px" alt="" />
+            <img src="./img/img(7).jpg" width="370" alt="картинка8" />
           </li>
           <li class="list">
-            <img src="./img/img(8).jpg" width="370px" alt="" />
+            <img src="./img/img(8).jpg" width="370" alt="картинка9" />
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="footer-logo" href=""
-        >Web<span class="footer-logo-span">Studio</span></a
-      >
-      <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
-      <nav class="footer-nav">
+    <footer class="footer">
+      <div class="container">
+        <a class="footer-logo" href=""
+          >Web<span class="footer-logo-span">Studio</span></a
+        >
+        <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
+
         <ul class="list footer-list">
           <li class="item">info@example.com</li>
           <li class="item">+38 099 111 11 11</li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>
