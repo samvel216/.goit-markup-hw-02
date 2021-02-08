@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./stile.css" />
+    <link rel="stylesheet" href="./stiles/stile.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -22,20 +22,31 @@
         >
         <nav>
           <ul class="header-nav list">
-            <li class="item">Студия</li>
-            <li class="item hover-item">Портфолио</li>
-            <li class="item">Контакты</li>
+            <li class="item">
+              <a href="./index.html" class="link">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link hover-item">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="" class="link">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="header-nav-contacts list">
-          <li class="item hover-item">info@devstudio.com</li>
-          <li class="item">+38 096 111 11 11</li>
+          <li class="item">
+            <a href="" class="link hover-item">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
     <main>
       <section>
-        <ul>
+        <h2 hidden>Наши услуги</h2>
+        <ul class="list">
           <li><button type="button" class="section-button">Все</button></li>
           <li>
             <button type="button" class="section-button">Веб-сайт</button>
@@ -82,15 +93,20 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo" href=""
+        <a class="footer-logo" href="./portfolio.html"
           >Web<span class="footer-logo-span">Studio</span></a
         >
-        <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
-
-        <ul class="list footer-list">
-          <li class="item">info@example.com</li>
-          <li class="item">+38 099 111 11 11</li>
-        </ul>
+        <address class="footer-adress">
+          г. Киев, пр-т Леси Украинки, 26
+          <ul class="list footer-list">
+            <li class="item">
+              <a href="" class="link">info@example.com</a>
+            </li>
+            <li class="item">
+              <a href="" class="link">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
